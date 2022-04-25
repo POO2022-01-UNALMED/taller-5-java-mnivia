@@ -85,7 +85,7 @@ public class Animal {
 		}
 		else {
 			return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en "
-					+ habitat + "y mi genero es " + genero; 
+					+ habitat + " y mi genero es " + genero; 
 		}
 						
 	}
