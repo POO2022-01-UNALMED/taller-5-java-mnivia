@@ -80,11 +80,11 @@ public class Animal {
 	public String toString() {
 		
 		if(zona != null) {
-			return "Mi nombre es " + nombre + ", tengo una edad de" + edad + ", habito en "
+			return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en "
 					+ habitat + "y mi genero es " + genero + ", la zona en la que me ubico es " + this.zona.getNombre() + "en el "+this.zona.getZoo();			
 		}
 		else {
-			return "Mi nombre es " + nombre + ", tengo una edad de" + edad + ", habito en "
+			return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en "
 					+ habitat + "y mi genero es " + genero; 
 		}
 						
