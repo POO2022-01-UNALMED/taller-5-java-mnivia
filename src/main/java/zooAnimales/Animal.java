@@ -63,7 +63,7 @@ public class Animal {
 	}
 	
 	
-	public String totalPorTipo() {//ya miraremos
+	public static String totalPorTipo() {//ya miraremos
 		
 		String formato="Mamiferos: "+Mamifero.getListado().size()+"\n"
 						+"Aves: "+Ave.getListado().size()+"\n"
